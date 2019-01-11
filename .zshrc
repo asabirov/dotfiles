@@ -1,12 +1,8 @@
 # Oh-My-Zsh
 export ZSH="$HOME/.oh-my-zsh"
 
-# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="agnoster"
+ZSH_THEME="agnoster" # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 
-
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 plugins=(
   git
   ansible
@@ -24,6 +20,7 @@ plugins=(
 )
 
 source $ZSH/oh-my-zsh.sh
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # RVM
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
@@ -35,3 +32,4 @@ export PATH="$HOME/Dev/go/bin:$PATH"
 
 # Fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
