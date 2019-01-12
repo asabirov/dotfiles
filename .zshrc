@@ -70,3 +70,8 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 alias k="kubectl"
 alias h="helm"
 alias dc="docker-compose"
+
+
+# Locale 
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
