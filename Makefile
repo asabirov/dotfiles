@@ -1,4 +1,4 @@
-Meslo%20LG%20M%20Regular%20for%20Powerline.ttfFILES = $(shell ls -a | grep -e '\.\w' | grep -v '.git$$') 
+FILES = $(shell ls -a | grep -e '\.\w' | grep -v '.git$$') 
 DIR = $(shell pwd)
 
 test:
