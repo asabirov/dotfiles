@@ -1,0 +1,33 @@
+[user]
+	name = Artur Sabirov
+	email = artur.sabirov@apliteni.com
+[core]
+	editor = nano
+	quotepath = false
+	autocrlf = false
+[color]
+	ui = true
+
+
+[alias]
+  st = status
+  ci = commit
+  br = branch -v
+  co = checkout
+  df = diff
+  lg = log --pretty=format:\"%h %Cblue%ar %Cgreen%an%Creset: %s %Cred%d\"
+  lf = log --name-status --pretty=format:\"%h %Cblue%ar %Cgreen%an%Creset: %s %Cred%d\"
+  ll = log -10 --pretty=format:\"%h %Cblue%ar %Cgreen%an%Creset: %s %Cred%d\"
+  gr = log --graph --pretty=format:\"%Cred%h %Cblue%ar%Creset %Cgreen%an%Creset %s %Cred%d\"
+  where = branch -av --contains
+  tree = log --graph --pretty=oneline --abbrev-commit
+[diff]
+	submodule = log
+[push]
+	default = simple
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[url "git@bitbucket.org:"]
+	insteadOf = https://bitbucket.org/
