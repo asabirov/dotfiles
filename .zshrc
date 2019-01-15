@@ -80,3 +80,7 @@ export LC_ALL=en_US.UTF-8
 # PPBrew 
 source /Users/cjslade/.phpbrew/bashrc
 export PHPBREW_SET_PROMPT=1
+
+
+# Xcode
+alias xcode="open -a Xcode"
