@@ -21,3 +21,5 @@ install_fonts:
 reload_zsh:
 	zsh ~/.zshrc	
 
+install_ansible:
+	ansible-playbook -i ansible/inventory/workstation ansible/provision_workstation.yml

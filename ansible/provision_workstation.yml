@@ -1,0 +1,9 @@
+---
+- hosts: workstation
+  connection: local
+  vars_files:
+  - vars/workstation.yml
+
+  roles:
+    - { role: geerlingguy.homebrew, tags: homebrew }
+    - { role: geerlingguy.mas, tags: mas }
