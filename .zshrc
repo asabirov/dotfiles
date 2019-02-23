@@ -29,7 +29,7 @@ unsetopt correct_all
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # Go
-export GOROOT="/usr/local/bin/"
+#export GOROOT="/usr/local/bin/"
 export GOPATH="$HOME/Dev/go"
 export PATH="$HOME/Dev/go/bin:$PATH"
 
@@ -84,3 +84,6 @@ export PHPBREW_SET_PROMPT=1
 
 # Xcode
 alias xcode="open -a Xcode"
+
+# PHP
+alias phpunit=public/vendor/bin/phpunit
