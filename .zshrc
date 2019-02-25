@@ -39,11 +39,11 @@ export PATH="$HOME/Dev/go/bin:$PATH"
 
 
 # Compilers
-export LDFLAGS="-L/usr/local/opt/openssl/lib"
-export CFLAGS="-I/usr/local/opt/openssl/include"
-export LDFLAGS=-L/usr/local/opt/openssl/lib
-export CPPFLAGS=-I/usr/local/opt/openssl/include
-export PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig
+#export LDFLAGS="-L/usr/local/opt/openssl/lib"
+#export CFLAGS="-I/usr/local/opt/openssl/include"
+#export LDFLAGS=-L/usr/local/opt/openssl/lib
+#export CPPFLAGS=-I/usr/local/opt/openssl/include
+#export PKG_CONFIG_PATH=/usr/local/opt/openssl/lib/pkgconfig
 
 export PATH="/usr/local/opt/openssl/bin:$PATH"
 export PATH="/usr/local/opt/gettext/bin:$PATH"
@@ -81,3 +81,6 @@ export LC_ALL=en_US.UTF-8
 # PHPbrew 
 source /Users/cjslade/.phpbrew/bashrc
 export PHPBREW_SET_PROMPT=1
+
+# Gnu
+export PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"
