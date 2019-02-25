@@ -27,6 +27,7 @@ unsetopt correct_all
 
 # RVM
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+source ~/.rvm/scripts/rvm
 
 # Go
 export GOROOT="/usr/local/bin/"
@@ -77,6 +78,6 @@ export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
 
-# PPBrew 
+# PHPbrew 
 source /Users/cjslade/.phpbrew/bashrc
 export PHPBREW_SET_PROMPT=1
